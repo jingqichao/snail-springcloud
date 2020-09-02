@@ -6,9 +6,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-//自定义的负载均衡Ribbon算法
 public class MySelfRule {
 
+    //自定义的负载均衡Ribbon算法
     @Bean
     public IRule myRule(){
         return new RandomRule();//随机算法代替轮询

@@ -1,5 +1,0 @@
-com\jqc\springcloud\service\DeptService.class
-com\jqc\springcloud\controller\DeptController.class
-com\jqc\springcloud\DeptProvider8001_App.class
-com\jqc\springcloud\service\impl\DeptServiceImpl.class
-com\jqc\springcloud\dao\DeptDao.class

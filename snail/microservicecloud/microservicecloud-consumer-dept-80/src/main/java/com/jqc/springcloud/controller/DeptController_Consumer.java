@@ -15,9 +15,9 @@ public class DeptController_Consumer {
     @Autowired
     private RestTemplate restTemplate;
 
-//    private static final String REST_URL_PREFIX = "http://localhost:8001";
+    private static final String REST_URL_PREFIX = "http://localhost:8001";
     //Ribbon和Eureka整合后Consumer可以直接调用服务而不用再关心地址和端口号
-    private static final String REST_URL_PREFIX = "http://MICROSERVICECLOUD-DEPT";
+//    private static final String REST_URL_PREFIX = "http://MICROSERVICECLOUD-DEPT";
 
     @RequestMapping(value = "/consumer/dept/add")
     public boolean add(Dept dept) {
